@@ -1,0 +1,36 @@
+# Dipendenze Node
+node_modules/
+
+# File di build
+dist/
+build/
+
+# File di ambiente (password, API key)
+.env
+.env.local
+.env.production
+
+# File di sistema operativo
+.DS_Store
+Thumbs.db
+
+# File degli IDE
+.idea/
+*.iml
+.vscode/
+*.swp
+*.swo
+
+# Log
+*.log
+npm-debug.log*
+
+# Java / Spring Boot (per quando creerai il backend)
+target/
+*.class
+*.jar
+*.war
+
+# File temporanei
+*.tmp
+*.bak
